@@ -43,9 +43,9 @@ public class PdfTest {
 
     @Test
     public void testPdf2() {
-        String filePdf="src/test/resources/pdfFile/CWP.pdf";
-        String imageExpected = "src/test/resources/images/example.png";
-        String actualImage= "src/test/resources/images/image_1.png";
+        String filePdf="src/test/resources/pdfFile/Roof_Tile_Matching.pdf";
+        String imageExpected = "src/test/resources/images/example2.png";
+        String actualImage= "src/test/resources/images/image_4.png";
         try {
             new ReadPdfContent().getImage(filePdf);
         } catch (IOException e) {
